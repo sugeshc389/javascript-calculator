@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <title>CALCULATOR</title>
 </head>
+
 <body>
     <h1>CALCULATOR</h1>
     <div class="container">
@@ -16,25 +18,25 @@
             <input type="text" id="screen">
             <br>
 
-            <input class="button num" type="button" value="7">
-            <input class="button num" type="button" value="8">
-            <input class="button num" type="button" value="9">
-            <input class="button ope" type="button" value="/">
+            <input class="button num" type="button" value="7" onclick="btnClick(value)">
+            <input class="button num" type="button" value="8" onclick="btnClick(value)">
+            <input class="button num" type="button" value="9" onclick="btnClick(value)">
+            <input class="button ope" type="button" value="/" onclick="btnClick(value)">
             <br>
-            <input class="button num" type="button" value="4">
-            <input class="button num" type="button" value="5">
-            <input class="button num" type="button" value="6">
-            <input class="button ope" type="button" value="*">
+            <input class="button num" type="button" value="4" onclick="btnClick(value)">
+            <input class="button num" type="button" value="5" onclick="btnClick(value)">
+            <input class="button num" type="button" value="6" onclick="btnClick(value)">
+            <input class="button ope" type="button" value="*" onclick="btnClick(value)">
             <br>
-            <input class="button num" type="button" value="1">
-            <input class="button num" type="button" value="2">
-            <input class="button num" type="button" value="3">
-            <input class="button ope" type="button" value="+">
+            <input class="button num" type="button" value="1" onclick="btnClick(value)">
+            <input class="button num" type="button" value="2" onclick="btnClick(value)">
+            <input class="button num" type="button" value="3" onclick="btnClick(value)">
+            <input class="button ope" type="button" value="+" onclick="btnClick(value)">
             <br>
-            <input class="button clr" type="button" value="c">
-            <input class="button num" type="button" value="0">
-            <input class="button res" type="button" value="=">
-            <input class="button ope" type="button" value="-">
+            <input class="button clr" type="button" value="c" onclick="clrSrn()">
+            <input class="button num" type="button" value="0" onclick="btnClick(value)">
+            <input class="button res" type="button" value="=" onclick="result()">
+            <input class="button ope" type="button" value="-" onclick="btnClick(value)">
 
 
 
@@ -45,4 +47,5 @@
 
     <script src="./calc.js"></script>
 </body>
+
 </html>
